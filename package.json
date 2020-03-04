@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/madhumitha01/mediumish-theme-jekyll/issues"
   },
-  "homepage": "https://github.com/madhumitha01/madhuism"
+  "homepage": "https://github.com/madhumitha01/madhuism",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
