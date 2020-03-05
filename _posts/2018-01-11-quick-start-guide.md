@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Day One, and not One Day"
-author: madhumitha
+author: sal
 categories: [first Blog Post, Writer's Block]
 image: assets/images/hello.png
 featured: true
