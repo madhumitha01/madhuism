@@ -4,8 +4,6 @@ title: "Day One, and not One Day"
 author: sal
 categories: [first Blog Post, Writer's Block]
 image: assets/images/hello.png
-featured: false
-hidden: true
 ---
 
 So it’s two months into 2020 already and I still haven’t started a blog despite saying I would do so over a year ago!

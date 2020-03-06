@@ -6,6 +6,8 @@ categories: [Younger Self, Open Letter]
 image: assets/images/hand.jpg
 beforetoc: "Even though I’m only 21, and some would say I am too young to be writing a letter to my younger self, I think it’s always good to look back and remember the previous events. That is how we grow, after all, isn’t it? So here it is: what I would say to a much younger me."
 toc: true
+featured: true
+hidden: true
 rating: 4.5
 ---
 
