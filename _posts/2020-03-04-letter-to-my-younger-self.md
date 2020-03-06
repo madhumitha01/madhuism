@@ -9,7 +9,7 @@ toc: true
 rating: 4.5
 ---
 
-Hi Madhu,
+Hi Madhu, <br/>
 Whining over your handwriting and practicing cursive writing every single day? Set them aside for 5 minutes and listen to what I say.
 
 <p>I am writing this letter to you as your 21 year old self. I am essentially still you, only that I am a little older and wiser. You would surely be having a lot of questions, especially regarding the questions that will come in tomorrow’s exam, right? (one typical Madhumitha Rajinikanthan, I have to say) But to be frank, I don’t remember any of those questions and even if I did, I wouldn’t have told you as that won’t foster learning. So before you drop this letter and begin to slowly walk away, have a seat and please hear me out.</p>
@@ -61,5 +61,5 @@ All in all, just remember we are going to be an all rounder- good in academics, 
 Now owing to the fact that life is busy, I will have to end my letter here but with my best piece of advice to you, do yourself a favor and invest in bitcoin. Just kidding sis, get back to practicing cursive writing.
 </p>
 
-Love,
+Love,<br/>
 A Somewhat Wiser You
