@@ -4,7 +4,7 @@ title: "Day One, and not One Day"
 author: sal
 categories: [first Blog Post, Writer's Block]
 image: assets/images/hello.png
-featured: true
+featured: false
 hidden: true
 ---
 
