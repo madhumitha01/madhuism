@@ -57,26 +57,61 @@ As stated in the problem description, there are <b>no orders less than 4 and is 
 - <b>Frequency of order by day of week</b>- 0 and 1 represents Saturday and Sunday when the orders are high and low during Wednesday
 - <b>Frequency of order by hour of day</b>- Majority of the purchases are made during day time, i.e. between 10 am to 4 pm.
 
-There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, `like this`. Larger snippets of code can be displayed across multiple lines using triple back ticks:
+### Let's combine the day of week & hour of day to see the distribution
 
-```
-.my-link {
-    text-decoration: underline;
-}
-```
+![Analysis4]({{ site.baseurl }}/assets/images/exp4.png)
 
-If you want to get really fancy, you can even add syntax highlighting using Rouge.
+From the graph, we can see that **Saturday evenings and Sunday mornings** are the prime time for customers to make orders.
 
-![walking]({{ site.baseurl }}/assets/images/orders.jpg)
+### Let's see the time interval between previous & present orders
 
-## Reference lists
+![Analysis5]({{ site.baseurl }}/assets/images/exp5.png)
 
-The quick brown jumped over the lazy.
+- Graph states that customers order **once in every week** (peak at 7 days) or **once in a month** (peak at 30 days).
+- Also, we can see that there are smaller peaks at 14, 21 and 28 days (weekly intervals).
 
-Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.
+### Let's see no. of products bought in each order & most ordered products
 
-## Full HTML
+![Analysis6]({{ site.baseurl }}/assets/images/exp6.png) ![Analysis7]({{ site.baseurl }}/assets/images/exp7.png)
 
-Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example:
+- We can observe from the plot that people usually order **around 5 products**.
+- In particular, the **top 5 most ordered products are** Banana (491,291), Bag of Organic Banana (394,930), Organic Strawberries (275,577), Organic Baby Spinach (251,705), and Organic Hats Avocado (220,877).
 
-<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+### Now let's look at the important aisles and department distribution
+
+![Analysis8]({{ site.baseurl }}/assets/images/exp8.png) ![Analysis9]({{ site.baseurl }}/assets/images/exp9.png)
+
+- **Top aisles** are fresh fruits, fresh vegetables, packaged vegetables and fruit, followed by yogurt and packaged cheese.
+- The **top department** is produce, followed by dairy eggs and snacks.
+
+### Now let's look at reorder ratio of each Department
+
+![Analysis10]({{ site.baseurl }}/assets/images/exp10.png)
+
+From the point plot, we can find that Personal care has lowest reorder ratio and **dairy eggs has highest reorder ratio**.
+
+### Let's look at the cart order vs the reorder ratio
+
+![Analysis11]({{ site.baseurl }}/assets/images/exp11.png)
+
+- We can see that the **products that are added to the cart initially are the ones that are likely to be reordered again** compared to the ones added later.
+- This makes sense to as we tend to first order all the products we used to buy frequently and then look out for new products available.
+
+## Conclusion
+
+<ol>
+<li>The dataset is quite big and has many variables that we can analyze. We can further look at association rules in detail between products, investigate consumer reordering patterns in terms of days and hours, reorder ratio vs the hour of the order and so on…</li>
+<li>Some of the business related problems that might have an impact on the revenue are:
+<ul>
+<li>
+Frequency of customer orders is low ranging from 4–12. <b>What actions can a business take in order the improve the frequency of customer orders?</b></li>
+<li>Majority of the customers plan their purchases on weekly and monthly cycles. <b>What actions can a business take to improve the purchases for any day of the week and month?</b></li>
+<li>Besides banana, top items are sold mostly on Monday and Tuesday. <b>Can this be related to an item inventory issue from the retailers?</b></li>
+<li><b>Besides the general consumer and market needs, are there any reasons why certain department sales are lower than the others?</b></li>
+</ul>
+</li>
+</ol>
+
+- _If you are interested in reproducing this result yourself, you can download the dataset from the <a href="https://medium.com/r/?url=https%3A%2F%2Fwww.instacart.com%2Fdatasets%2Fgrocery-shopping-2017">Instacart website</a> and view my notebook on <a href="https://github.com/madhumitha01/Instacart-Market-Basket-Analysis/blob/master/Instacart-%20Exploratory%20Analysis.ipynb">GitHub.</a>_
+
+- _In the next part of this blog post series, I will do Customer Segmentation, which can help Instacart find the behavioral pattern between their customers and deliver more personalized recommendations based on their needs._
