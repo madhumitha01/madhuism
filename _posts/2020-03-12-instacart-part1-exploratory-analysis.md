@@ -44,53 +44,53 @@ This dataset includes orders from many different retailers and is a heavily bias
 
 <i> Code for all the graphs represented below are present in this <a href="https://github.com/madhumitha01/Instacart-Market-Basket-Analysis/blob/master/Instacart-%20Exploratory%20Analysis.ipynb">GitHub repository.</a></i>
 
-#### Let's validate the claim that 4 to 100 orders of a customer are given
+### Let's validate the claim that 4 to 100 orders of a customer are given
 
 ![Analysis1]({{ site.baseurl }}/assets/images/exp1.png)
 
 As stated in the problem description, there are <b>no orders less than 4 and is max capped at 100</b>.
 
-#### Let's see how ordering habit changes w.r.t day of week & hour of day
+### Let's see how ordering habit changes w.r.t day of week & hour of day
 
 ![Analysis2]({{ site.baseurl }}/assets/images/exp2.png) ![Analysis3]({{ site.baseurl }}/assets/images/exp3.png)
 
 - <b>Frequency of order by day of week</b>- 0 and 1 represents Saturday and Sunday when the orders are high and low during Wednesday
 - <b>Frequency of order by hour of day</b>- Majority of the purchases are made during day time, i.e. between 10 am to 4 pm.
 
-#### Let's combine the day of week & hour of day to see the distribution
+### Let's combine the day of week & hour of day to see the distribution
 
 ![Analysis4]({{ site.baseurl }}/assets/images/exp4.png)
 
 From the graph, we can see that **Saturday evenings and Sunday mornings** are the prime time for customers to make orders.
 
-#### Let's see the time interval between previous & present orders
+## Let's see the time interval between previous & present orders
 
 ![Analysis5]({{ site.baseurl }}/assets/images/exp5.png)
 
 - Graph states that customers order **once in every week** (peak at 7 days) or **once in a month** (peak at 30 days).
 - Also, we can see that there are smaller peaks at 14, 21 and 28 days (weekly intervals).
 
-#### Let's see no. of products bought in each order & most ordered products
+### Let's see no. of products bought in each order & most ordered products
 
 ![Analysis6]({{ site.baseurl }}/assets/images/exp6.png) ![Analysis7]({{ site.baseurl }}/assets/images/exp7.png)
 
 - We can observe from the plot that people usually order **around 5 products**.
 - In particular, the **top 5 most ordered products are** Banana (491,291), Bag of Organic Banana (394,930), Organic Strawberries (275,577), Organic Baby Spinach (251,705), and Organic Hats Avocado (220,877).
 
-#### Now let's look at the important aisles and department distribution
+### Now let's look at the important aisles and department distribution
 
 ![Analysis8]({{ site.baseurl }}/assets/images/exp8.png) ![Analysis9]({{ site.baseurl }}/assets/images/exp9.png)
 
 - **Top aisles** are fresh fruits, fresh vegetables, packaged vegetables and fruit, followed by yogurt and packaged cheese.
 - The **top department** is produce, followed by dairy eggs and snacks.
 
-#### Now let's look at reorder ratio of each Department
+### Now let's look at reorder ratio of each Department
 
 ![Analysis10]({{ site.baseurl }}/assets/images/exp10.png)
 
 From the point plot, we can find that Personal care has lowest reorder ratio and **dairy eggs has highest reorder ratio**.
 
-#### Let's look at the cart order vs the reorder ratio
+### Let's look at the cart order vs the reorder ratio
 
 ![Analysis11]({{ site.baseurl }}/assets/images/exp11.png)
 
