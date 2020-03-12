@@ -10,7 +10,7 @@ categories:
     Exploratory Analysis,
     Market Basket Analysis,
   ]
-image: assets/images/insta1.jpg
+image: assets/images/insta1.jpeg
 beforetoc: "Instacart market basket analysis was a Kaggle competition that was opened early 2016 and was conducted by Instacart."
 toc: true
 ---
@@ -38,7 +38,7 @@ Only products that are bought by multiple people at multiple retailers are inclu
 
 This dataset includes orders from many different retailers and is a heavily biased subset of Instacart's production data, and so is not a representative sample of their products, users or their purchasing behavior.
 
-![walking]({{ site.baseurl }}/assets/images/orders.jpg)
+![dataset]({{ site.baseurl }}/assets/images/orders.png)
 
 ## Data Exploration
 
