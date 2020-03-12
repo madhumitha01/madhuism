@@ -42,7 +42,20 @@ This dataset includes orders from many different retailers and is a heavily bias
 
 ## Data Exploration
 
+<i> Code for all the graphs represented below are present in this <a href="https://github.com/madhumitha01/Instacart-Market-Basket-Analysis/blob/master/Instacart-%20Exploratory%20Analysis.ipynb">GitHub repository.</a></i>
+
 ### Let's validate the claim that 4 to 100 orders of a customer are given
+
+![Analysis1]({{ site.baseurl }}/assets/images/exp1.png)
+
+As stated in the problem description, there are <b>no orders less than 4 and is max capped at 100</b>.
+
+### Let's see how ordering habit changes w.r.t day of week & hour of day
+
+![Analysis2]({{ site.baseurl }}/assets/images/exp2.png) ![Analysis3]({{ site.baseurl }}/assets/images/exp3.png)
+
+- <b>Frequency of order by day of week</b>- 0 and 1 represents Saturday and Sunday when the orders are high and low during Wednesday
+- <b>Frequency of order by hour of day</b>- Majority of the purchases are made during day time, i.e. between 10 am to 4 pm.
 
 There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, `like this`. Larger snippets of code can be displayed across multiple lines using triple back ticks:
 
