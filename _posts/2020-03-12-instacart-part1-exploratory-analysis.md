@@ -77,7 +77,7 @@ From the graph, we can see that **Saturday evenings and Sunday mornings** are th
 - Graph states that customers order **once in every week** (peak at 7 days) or **once in a month** (peak at 30 days).
 - Also, we can see that there are smaller peaks at 14, 21 and 28 days (weekly intervals).
 
-### Each order contained how many products?
+### Each order contains how many products?
 
 **_Let's see no. of products bought in each order & most ordered products_**
 
