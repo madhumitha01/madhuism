@@ -42,7 +42,7 @@ This dataset includes orders from many different retailers and is a heavily bias
 
 The description of each variable is outlined below;
 
-**1.orders dataset:**
+**1. orders dataset:**
 
 - order_id: order identifier
 - user_id: customer identifier
@@ -52,24 +52,24 @@ The description of each variable is outlined below;
 - order_hour_of_day: the hour of the day the order was placed on
 - days_since_prior: days since the last order, capped at 30 (with NAs for order_no = 1)
 
-**2.products dataset:**
+**2. products dataset:**
 
 - product_id: product identifier
 - product_name: name of the product
 - aisle_id: foreign key
 - department_id: foreign key
 
-**3.aisles dataset:**
+**3. aisles dataset:**
 
 - aisle_id: aisle identifier
 - aisle: the name of the aisle
 
-**4.departments dataset:**
+**4. departments dataset:**
 
 - department_id: department identifier
 - department: the name of the department
 
-**5.order_products_prior and train datasets:**
+**5. order_products_prior and train datasets:**
 
 - order_id: foreign key
 - product_id: foreign key
