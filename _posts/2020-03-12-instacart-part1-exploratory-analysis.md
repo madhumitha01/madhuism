@@ -44,13 +44,16 @@ This dataset includes orders from many different retailers and is a heavily bias
 
 <i> Code for all the graphs represented below are present in this <a href="https://github.com/madhumitha01/Instacart-Market-Basket-Analysis/blob/master/Instacart-%20Exploratory%20Analysis.ipynb">GitHub repository.</a></i>
 
-### Let's validate the claim that 4 to 100 orders of a customer are given
+### Validating 4-100 orders of customer
 
+**_Let's validate the claim that 4 to 100 orders of a customer are given_**
 ![Analysis1]({{ site.baseurl }}/assets/images/exp1.png)
 
 As stated in the problem description, there are <b>no orders less than 4 and is max capped at 100</b>.
 
-### Let's see how ordering habit changes w.r.t day of week & hour of day
+### Order vs week/days
+
+**_Let's see how ordering habit changes w.r.t day of week & hour of day_**
 
 ![Analysis2]({{ site.baseurl }}/assets/images/exp2.png) ![Analysis3]({{ site.baseurl }}/assets/images/exp3.png)
 
@@ -63,7 +66,7 @@ As stated in the problem description, there are <b>no orders less than 4 and is 
 
 From the graph, we can see that **Saturday evenings and Sunday mornings** are the prime time for customers to make orders.
 
-## Let's see the time interval between previous & present orders
+### Let's see the time interval between previous & present orders
 
 ![Analysis5]({{ site.baseurl }}/assets/images/exp5.png)
 
