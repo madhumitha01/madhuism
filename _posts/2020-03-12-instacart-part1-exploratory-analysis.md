@@ -51,7 +51,7 @@ This dataset includes orders from many different retailers and is a heavily bias
 
 As stated in the problem description, there are <b>no orders less than 4 and is max capped at 100</b>.
 
-### Order vs week/days
+### Order vs Week/Days
 
 **_Let's see how ordering habit changes w.r.t day of week & hour of day_**
 
@@ -60,40 +60,52 @@ As stated in the problem description, there are <b>no orders less than 4 and is 
 - <b>Frequency of order by day of week</b>- 0 and 1 represents Saturday and Sunday when the orders are high and low during Wednesday
 - <b>Frequency of order by hour of day</b>- Majority of the purchases are made during day time, i.e. between 10 am to 4 pm.
 
-### Let's combine the day of week & hour of day to see the distribution
+### Day of week vs Hour of day
+
+**_Let's combine the day of week & hour of day to see the distribution_**
 
 ![Analysis4]({{ site.baseurl }}/assets/images/exp4.png)
 
 From the graph, we can see that **Saturday evenings and Sunday mornings** are the prime time for customers to make orders.
 
-### Let's see the time interval between previous & present orders
+### Interval between each order
+
+**_Let's see the time interval between previous & present orders_**
 
 ![Analysis5]({{ site.baseurl }}/assets/images/exp5.png)
 
 - Graph states that customers order **once in every week** (peak at 7 days) or **once in a month** (peak at 30 days).
 - Also, we can see that there are smaller peaks at 14, 21 and 28 days (weekly intervals).
 
-### Let's see no. of products bought in each order & most ordered products
+### Each order contained how many products?
+
+**_Let's see no. of products bought in each order & most ordered products_**
 
 ![Analysis6]({{ site.baseurl }}/assets/images/exp6.png) ![Analysis7]({{ site.baseurl }}/assets/images/exp7.png)
 
 - We can observe from the plot that people usually order **around 5 products**.
 - In particular, the **top 5 most ordered products are** Banana (491,291), Bag of Organic Banana (394,930), Organic Strawberries (275,577), Organic Baby Spinach (251,705), and Organic Hats Avocado (220,877).
 
-### Now let's look at the important aisles and department distribution
+### Important Aisles and Departments
+
+**_Now let's look at the important aisles and department distribution_**
 
 ![Analysis8]({{ site.baseurl }}/assets/images/exp8.png) ![Analysis9]({{ site.baseurl }}/assets/images/exp9.png)
 
 - **Top aisles** are fresh fruits, fresh vegetables, packaged vegetables and fruit, followed by yogurt and packaged cheese.
 - The **top department** is produce, followed by dairy eggs and snacks.
 
-### Now let's look at reorder ratio of each Department
+### Reorder Ratio
+
+**_Now let's look at reorder ratio of each Department_**
 
 ![Analysis10]({{ site.baseurl }}/assets/images/exp10.png)
 
 From the point plot, we can find that Personal care has lowest reorder ratio and **dairy eggs has highest reorder ratio**.
 
-### Let's look at the cart order vs the reorder ratio
+### Cart order vs Reorder ratio
+
+**_Let's look at the cart order vs the reorder ratio_**
 
 ![Analysis11]({{ site.baseurl }}/assets/images/exp11.png)
 
